@@ -14,12 +14,22 @@ import java.util.List;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+/**
+ * Controlador de vuelo:
+ *   - Anadir vuelos
+ *   - Buscar vuelos por referencia
+ *   - Buscar vuelos por origen
+ *   - Buscar vuelos entre dos fechas
+ *   - Eliminar vuelos
+ *
+ */
+
 public class FlightControllerTest {
 
     private FlightController flightController;
 
     @BeforeEach
-    private void setUp() {
+    public void setUp() {
         flightController = new FlightController();
     }
 

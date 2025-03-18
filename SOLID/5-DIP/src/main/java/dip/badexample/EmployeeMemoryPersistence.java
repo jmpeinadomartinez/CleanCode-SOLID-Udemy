@@ -11,6 +11,7 @@ public class EmployeeMemoryPersistence implements EmployeePersistence {
         employees = new ArrayList<Employee>();
     }
 
+    @Override
     public List<Employee> findAll() {
         return employees;
     }
